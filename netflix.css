@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(../assest/images/Netflix-plan-anuncios-precios.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: 20px;
+}
+.netflix{
+    width: 380px;
+    height: 455px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 90px;
+    /* background-color:rgba(19, 17, 17, 0.274); */
+     background-color: black; 
+    /* z-index: 18px; */
+     box-shadow: 2px 2px 5px black 2px 2px 7px black; 
+    opacity: 0.9;
+
+}
+.sign-in{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+/* .email-or-phone-number{ */
+    /* border: 1px solid red; */
+    /* height: 37px; */
+    
+/* } */
+.email-or-phone-number input{
+    height: 37px;
+    width: 330px;
+    position: absolute;
+    margin-top: 94px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+/* .password{ */
+    /* border: 1px solid red; */
+    /* height: 37px; */
+/* } */
+.password input{
+height: 37px;
+width: 330px;
+position: absolute;
+margin-top: 140px; 
+margin-left: 20px;
+padding-left: 10px;
+/* background-color: #3; */
+border: 1px solid transparent;
+color: black;
+border-radius: 5px;
+
+}
+.btn button{
+    /* border: 1px solid red; */
+    position: absolute;
+    margin-top: 200px;
+    height: 37px;
+    width: 330px;
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    /* border: 1px solid transparent; */
+}
+.remember-me{
+    color: white;
+    position: absolute;
+    margin-top:240px;
+    margin-left: 20px;
+}
+
+.need-help{
+    color: white;
+    position: absolute;
+    margin-top:240px;
+    margin-left: 280px;
+    display: inline-block;
+}
+.new-to-netflix{
+    position: absolute;
+    margin-top: 370px;
+    color: white;
+    margin-left: 20px;
+}
+span a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding-left: 4px;
+}
+.netflix2{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+}
+.login-to-facebook{
+    color: white;
+    position: absolute;
+    margin-top:335px;
+    margin-left: 20px;
+
+}
+.login-to-facebook img{
+    height: 15px;
+    width: 15px;
+    margin-right: 6px;
+    /* margin-top: 50px; */
+    
+}
+p{
+    position: absolute;
+    margin-top: 400px;
+    color: white;
+    margin-left: 20px;
+}
+#learn-more{
+    color: blue;
+    font-weight: bold;
+}
